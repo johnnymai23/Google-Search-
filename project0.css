@@ -1,0 +1,175 @@
+body{
+    text-align: center;
+    padding: 20px; 
+}
+.rightside {
+    font-family: arial;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.circular--square {
+    border-radius: 50%;
+  }
+
+.leftside {
+    font-family: arial;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float: left; 
+}
+
+.AdvancedLogo {
+    float: left; 
+}
+
+.AdvancedSearch {
+    float: left;
+    padding-left: 40px;
+    font-family: Arial;
+    Color: #DB4437; 
+    font-size: 20px;
+}
+
+hr.line1 {
+    border-top: lightgray;
+}
+
+h1 {
+    padding: 10px;
+
+}
+
+h2 {
+    font-family: Futura;
+    font-size: 50px; 
+    letter-spacing: 8px;
+}
+
+
+
+.SearchBar {
+    padding-left: 10px;
+    border: 2px solid lightgray;
+    border-radius: 12px;
+    border-width: 1px;
+    width: 575px  
+}
+
+form {
+    height: 200px
+}
+
+.Search1 {
+    cursor: pointer;
+    border: 0px solid lightgray;
+    border-radius: 4px;
+    width: 120px; 
+    height: 40px; 
+    color: rgb(71, 68, 68) 
+}
+
+.Search1:hover {
+    background: darkgray; 
+    border-top: 1px solid darkgray; 
+}
+
+
+.Search2 {
+    cursor: pointer;
+    border: 0px solid lightgray;
+    border-radius: 4px;
+    width: 130px;
+    height: 40px;
+    color: rgb(71, 68, 68)
+}
+
+.Search2:hover {
+    background: darkgray; 
+    border-top: 1px solid darkgray; 
+}
+
+
+.Search3 {
+    margin-left: 640px;
+    cursor: pointer;
+    border: 0px solid #4285F4;
+    border-radius: 4px;
+    width: 130px;
+    height: 40px;
+    color: white; 
+}
+
+.Search3 {
+    background:#4285F4 ; 
+    border-top: 1px solid darkgray; 
+}
+
+.AdvancedSearchBar {
+    padding-left: 10px;
+    border: 2px solid lightgray;
+    border-width: 1px;
+    width: 575px 
+}
+
+.AdvancedField {
+    float: left; 
+}
+
+h3 {
+    float: left;
+    font-family: arial;
+
+}
+
+#AdvancedFormSearch  {
+     display: table;  
+    }
+
+p {
+     display: table-row;  
+    }
+
+label { 
+    font-family: arial;
+    font-size: 12px;
+    display: table-cell; 
+    padding-right: 50px;
+}
+
+input { 
+    display: table-cell; 
+    font-family: arial;
+}
+
+#AdvFind {
+    font-family: arial;
+    color: gray;
+}
+
+input[type="text"]{
+    font-family: arial;
+}
